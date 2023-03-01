@@ -1,0 +1,38 @@
+img {
+ height: 100px;
+ max-width: 100px;      
+}
+body{
+    background-color: rgb(180,211,195);
+}
+h1{
+    font-family:'Luxury', sans-serif;
+    font-style: italic;
+    font-size: 5em;
+    color: rgb(209,66,5);
+}
+p{
+    font-family: 'Rise of Beauty', sans-serif;                                        
+    color: rgb(209,66,5);
+    font-style: oblique;
+    font-size: 2em;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+    font-family: 'Rise of Beauty', sans-serif;                                          
+    color: #3c0505;
+    font-size: 1em;
+}
+nav{
+    font-family: 'Rise of Beauty', sans-serif;    
+    font-weight: bolder;
+    color: #3c0505;
+}
+ul{
+    font-family: 'Rise of Beauty', sans-serif;                                        
+    color:#3c0505;
+    font-style: oblique;
+    font-size: 2em;
+    font-weight: bolder;
+}
