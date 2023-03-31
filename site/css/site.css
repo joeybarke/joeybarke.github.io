@@ -1,7 +1,7 @@
 body {
     background-color: #030303;
     text-align: center;
-    font-family: 'Porto 400', sans-serif;
+    font-family: 'Prompt', sans-serif;
     color: whitesmoke;
     font-size: 18px;
 }
@@ -42,7 +42,7 @@ img {
 h1,
 h2,
 h3{
-    font-family: 'Porto 400', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 
 
@@ -109,3 +109,4 @@ p {
         width: 85%;
     } 
 }
+
