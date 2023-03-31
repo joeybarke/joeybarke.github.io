@@ -1,0 +1,111 @@
+body {
+    background-color: #030303;
+    text-align: center;
+    font-family: 'Porto 400', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.container-fluid{
+    width: 50%;
+}
+
+section{
+    padding: 0 0 2em 0;
+}
+nav{
+    padding: 2em 0;;
+}
+nav a{
+    color: white;
+    text-transform: uppercase;
+    padding: 0 1em
+}
+.rectangle {
+    min-height: 200px;
+    line-height: 200px;
+     border: 5px solid #6B6B69;
+     background: #F5E84C;
+     margin: 1em;
+     overflow: hidden;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    
+}
+
+img {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Porto 400', sans-serif;
+}
+
+
+
+h1 {
+    font-size: 5em;
+    color: #F5E84C;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #000000;
+}
+h3 {
+    font-size: 1.5em;
+    color: #F5E84C;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+  }
+.button:hover {
+    background-color: #555;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@media (max-width: 768px){
+    .container-fluid{
+        width: 75%;
+    }
+    .rectangle{
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 556px){
+    .container-fluid{
+        width: 85%;
+    } 
+}
